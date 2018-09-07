@@ -37,6 +37,18 @@ const Footer = props => (
         <li><a href="https://facebook.com/vagrantorg" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
         <li><a href="https://instagram.com/vagrantorg" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
       </ul>
+      <h2>Links</h2>
+      <ul className="actions">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About us</Link>
+        </li>
+        <li>
+          <Link to="/privacy-policy">Privacy policy</Link>
+        </li>
+      </ul>
     </section>
     <p className="copyright">&copy; Vagrant Ltd 2018</p>
   </footer>
